@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Encriptador de texto - Challenge1</title>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+    <header>
+        <img src="img/Alura_logo.png" class="logo_alura" alt="">
+    </header>
+    <!-- contenedor -->
+    <div class="container">
+        <textarea name="textEncriptar" id="areaEncriptar" class="areaEncriptar"
+            placeholder="Ingrese el texto aquí"></textarea>
+        <div class="alerta_text">
+            <img src="img/alert-svgrepo-com.png" class="img_alert" alt="">
+            <p class="texto">Solo letras minúsculas y sin acentos</p>
+        </div>
+        <div class="botones">
+            <button class="boton" id="btn__encriptar">Encriptar</button>
+            <button class="boton" id="btn__desencriptar">Desencriptar</button>
+        </div>
+    </div>
+
+    <!-- aside -->
+    <aside class="cuadro__aside">
+        <textarea name="texto encriptado" class="areaEncriptar tex_encriptado texto ocultar"></textarea>
+        <img src="img/frog_sticker.jpg" class="img_frog elements" alt="">
+        <p class="texto text__bold text__1 elements">Ningún mensaje fue encontrado</p>
+        <p class="texto text__1 elements">
+            Ingresa el texto que desees encriptar o desencriptar.
+        </p>
+        <p class="txtcopiado ocultar">copiado</p>
+        <button class="boton btn__desencriptar boton__aside ocultar">Copiar</button>
+    </aside>
+</body>
+<script src="encriptar.js"> </script>
+
+</html>
